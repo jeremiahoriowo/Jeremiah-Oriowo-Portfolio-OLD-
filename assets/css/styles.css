@@ -17,7 +17,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /* Font and typography */
-    --body-font: 'Poppins', san-serif;
+    --body-font: 'Poppins';
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -93,6 +93,7 @@ body.dark-theme{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: var(--body-font);
 }
 
 html{
@@ -285,7 +286,7 @@ img{
 }
 
 .home__social-icon:hover{
-    color: --first-color-alt
+    color: var(--first-color-alt);
 }
 
 .home__blob{
